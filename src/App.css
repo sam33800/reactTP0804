@@ -9,7 +9,25 @@
   list-style: none;
   text-decoration: none;
   font-family: pokemon;
-  color: white;
+  color: rgb(255, 255, 255);
+}
+
+.spinner{
+  height: 100px;
+  width: 100px;
+  animation-duration: 1s;
+  animation-name: spinnerPokeball;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes spinnerPokeball {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 h2, h3{
@@ -40,7 +58,7 @@ header{
   margin-bottom: 10rem;
   padding-bottom: 3rem;
   border-radius: 0 0 10% 10%;
-  border-bottom: rgba(0, 0, 0, 0.649) 3px solid;
+  border-bottom: rgba(0, 0, 0, 0.649) 5px solid;
 }
 
 header ul{
@@ -83,9 +101,8 @@ article{
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  /* border: 3px solid black; */
   padding: 2rem;
-  border-top: white solid 3px;
+  border-top: rgb(255, 255, 255) solid 3px;
 }
 
 .stats{
@@ -94,7 +111,6 @@ article{
   align-items: flex-start;
   text-align: start;
   gap: 1rem;
-  /* transform: translateX(10%); */
 }
 
 .statsLeft{
@@ -118,12 +134,8 @@ article{
 .pokemonImage{
   height: 150px;
   width: 150px;
-  transition: all ease-in-out 1s;
 }
 
-/* .pokemonImage:hover{
-  transform: rotate(360deg);
-} */
 
 .typePokemon{
   display: flex;
@@ -144,7 +156,7 @@ article{
 }
 
 .Feu{
-  color: #E72324
+  color: #E72324;
 
 }
 

@@ -13,8 +13,10 @@ const PokemonCard = ({pokemon})=>{
                     <div className="typePokemon" >
                         Type :
                         {pokemon.apiTypes.map((type)=>{
+                            
                             return(
                                 <p className={type.name}>{type.name}</p>
+                                
                             )
                         })}                    
                     </div>
@@ -35,11 +37,14 @@ const PokemonCard = ({pokemon})=>{
 
                 </div>
             </article>
+
+            
             )
         
 
-       
     )
+
+    
 }
 
 export default PokemonCard
