@@ -1,5 +1,7 @@
 const PokemonCard = ({pokemon})=>{
 
+    
+
 
     return(
         

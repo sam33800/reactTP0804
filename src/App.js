@@ -13,9 +13,9 @@ function App() {
 <container>
   {/* <AllTypes /> */}
   <FirstPokemons />
-  {/* <WaterPokemons /> */}
-  {/* <FirePokemons />
-  <GrassPokemons /> */}
+  <WaterPokemons />
+  <FirePokemons />
+  <GrassPokemons />
 </container>
 
  </>
