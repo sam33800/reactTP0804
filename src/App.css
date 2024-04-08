@@ -1,38 +1,218 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: pokemon;
+  src: url(/public/Pokemon\ Classic.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: pokemon;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+  background-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+header a{
+  color: black;
 }
+
+.logo-header{
+  height: 150px;
+  width: 150px;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  height: 200px;
+  margin-bottom: 10rem;
+  padding-bottom: 3rem;
+  border-radius: 0 0 10% 10%;
+  border-bottom: rgba(0, 0, 0, 0.649) 3px solid;
+}
+
+header ul{
+  display: flex;
+  gap: 3rem;
+  font-size: 13px;
+}
+
+header a:hover{
+
+  color: white;
+}
+
+.waterPokemons:hover{
+  color: #2481EF;
+}
+
+.firePokemons:hover{
+  color: #E72324;
+}
+
+.grassPokemons:hover{
+  color: #3DA224;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  gap: 5rem;
+  width: 100%;
+}
+
+article{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* border: 3px solid black; */
+  padding: 2rem;
+  border-top: white solid 3px;
+}
+
+.stats{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  gap: 1rem;
+  /* transform: translateX(10%); */
+}
+
+.statsLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+
+.infoPokemon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+
+.pokemonImage{
+  height: 150px;
+  width: 150px;
+  transition: all ease-in-out 2s;
+}
+
+.pokemonImage:hover{
+  transform: translateX(500px);
+}
+
+.typePokemon{
+  display: flex;
+  gap: 1rem;
+}
+
+.Acier{
+    color: #60A2B9
+}
+
+.Dragon{
+  color: #4F60E2
+}
+
+.Electrik{
+  color: #FAC100
+
+}
+
+.Feu{
+  color: #E72324
+
+}
+
+.Insecte{
+  color: #92A212
+
+}
+
+.Plante{
+
+  color: #3DA224
+
+}
+
+.Psy{
+
+  color: #EF3F7A
+}
+
+.Sol{
+  color: #92501B
+
+}
+
+.Tenebres{
+
+ color: #4F3F3D
+
+}
+
+.Combat{
+  color: #FF8100
+
+}
+
+
+.Eau{
+  color:#2481EF ;
+}
+
+.Fee{
+color:#EF70EF ;
+
+}
+
+.Glace{
+  color: #3DD9FF;
+
+}
+
+.Normal{
+  color: #A0A2A0;
+
+}
+
+.Poison{
+  color: #923FCC;
+
+}
+
+.Roche{
+  color: #B0AA82;
+
+}
+
+.Spectre{
+  color: #703F70;
+
+}
+
+.Vol{
+  color: #82BAEF;
+
+}
+
