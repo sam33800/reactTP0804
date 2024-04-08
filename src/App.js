@@ -11,12 +11,12 @@ function App() {
  <>
 <Header />
 <container>
-  {/* <AllTypes />
-  <WaterPokemons /> */}
+  {/* <AllTypes /> */}
+  <FirstPokemons />
+  {/* <WaterPokemons /> */}
   {/* <FirePokemons />
   <GrassPokemons /> */}
 </container>
-<FirstPokemons />
 
  </>
   );

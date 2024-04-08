@@ -12,6 +12,10 @@
   color: white;
 }
 
+h2, h3{
+  text-transform: uppercase;
+}
+
 body{
   background-color: black;
 }
@@ -114,12 +118,12 @@ article{
 .pokemonImage{
   height: 150px;
   width: 150px;
-  transition: all ease-in-out 2s;
+  transition: all ease-in-out 1s;
 }
 
-.pokemonImage:hover{
-  transform: translateX(500px);
-}
+/* .pokemonImage:hover{
+  transform: rotate(360deg);
+} */
 
 .typePokemon{
   display: flex;
@@ -134,7 +138,7 @@ article{
   color: #4F60E2
 }
 
-.Electrik{
+.Électrik{
   color: #FAC100
 
 }

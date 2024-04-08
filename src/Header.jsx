@@ -1,7 +1,7 @@
 const Header = ()=>{
     return(
         <header>
-            <img className="logo-header" src="/Pokemon-removebg-preview.png" alt="" />
+            <a href="http://localhost:3000/"><img className="logo-header" src="/Pokemon-removebg-preview.png" alt="" /></a>
             <nav>
                 <ul>
                     <li><a href="#firstPokemons">100 First Pokemons</a></li>

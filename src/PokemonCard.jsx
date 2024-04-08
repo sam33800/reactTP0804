@@ -27,7 +27,7 @@ const PokemonCard = ({pokemon})=>{
                         </div>
                         <div className="statsRight">
                         <p>Special Attack: {pokemon.stats.special_attack}</p>                    
-                        <p>Special Defense:{pokemon.stats.special_defense}</p>                    
+                        <p>Special Defense: {pokemon.stats.special_defense}</p>                    
                         <p>Speed: {pokemon.stats.speed}</p>
                         </div>
                 </div>
