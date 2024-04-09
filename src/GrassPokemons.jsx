@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import PokemonCard from "./PokemonCard"
 
 
@@ -7,13 +7,17 @@ const GrassPokemons = ()=>{
 
     const [pokemons, setPokemons] = useState(null)
 
-    fetch("https://pokebuildapi.fr/api/v1/pokemon/type/Plante")
-    .then((response)=>{
-        return(response.json())
-    })
-    .then((data)=>{
-        return(setPokemons(data))
-    })
+    useEffect(()=>{
+        fetch("https://pokebuildapi.fr/api/v1/pokemon/type/Plante")
+        .then((response)=>{
+            return(response.json())
+        })
+        .then((data)=>{
+            return(setPokemons(data))
+        })
+    
+    },[])
+
 
 
     return(

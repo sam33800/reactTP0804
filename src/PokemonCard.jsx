@@ -1,6 +1,6 @@
 const PokemonCard = ({pokemon})=>{
 
-    
+
 
 
     return(
@@ -16,6 +16,7 @@ const PokemonCard = ({pokemon})=>{
                         Type :
                         {pokemon.apiTypes.map((type)=>{
                             
+                            
                             return(
                                 <p className={type.name}>{type.name}</p>
                                 
@@ -25,7 +26,7 @@ const PokemonCard = ({pokemon})=>{
 
                     <div className="stats">
                         <div className="statsLeft">
-                            <p>PV: {pokemon.stats.HP}</p>                    
+                            <p>HP: {pokemon.stats.HP}</p>                    
                             <p>Attack: {pokemon.stats.attack}</p>                    
                             <p>Defense: {pokemon.stats.defense}</p>                    
                         </div>

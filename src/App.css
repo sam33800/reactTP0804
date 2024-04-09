@@ -48,6 +48,15 @@ header a{
   width: 150px;
 }
 
+container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10rem;
+}
+
 header{
   display: flex;
   flex-direction: column;
@@ -142,6 +151,18 @@ article{
   gap: 1rem;
 }
 
+
+.pokeForm{
+  display: flex;
+  flex-direction: column;
+  gap:1rem ;
+}
+
+
+.selectInput{
+  color: black;
+}
+
 .Acier{
     color: #60A2B9
 }
@@ -181,7 +202,7 @@ article{
 
 }
 
-.Tenebres{
+.Ténèbres{
 
  color: #4F3F3D
 
@@ -197,7 +218,7 @@ article{
   color:#2481EF ;
 }
 
-.Fee{
+.Fée{
 color:#EF70EF ;
 
 }
@@ -232,3 +253,6 @@ color:#EF70EF ;
 
 }
 
+.finder{
+  color: black;
+}
