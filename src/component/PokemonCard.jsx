@@ -1,18 +1,18 @@
 const PokemonCard = ({pokemon})=>{
 
 
-
+    
 
     return(
         
             (
                 <article>
-                <img className="pokemonImage" src={pokemon.image} alt="" />
+                <img  className="pokemonImage" src={pokemon.image} alt="" />
                 <div className="infoPokemon">
                     <h3>{pokemon.name}</h3>
 
 
-                    <div className="typePokemon" >
+                    <div name className="typePokemon" >
                         Type :
                         {pokemon.apiTypes.map((type)=>{
                             
@@ -23,7 +23,7 @@ const PokemonCard = ({pokemon})=>{
                             )
                         })}                    
                     </div>
-
+                    
                     <div className="stats">
                         <div className="statsLeft">
                             <p>HP: {pokemon.stats.HP}</p>                    
