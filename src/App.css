@@ -159,8 +159,15 @@ article{
 }
 
 
-.selectInput{
+.pokeInput, .selectInput{
   color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pokeInput2{
+  margin-top: 1rem;
 }
 
 .Acier{
